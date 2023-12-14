@@ -1,16 +1,15 @@
 <p align="center">
-<img src="https://i.imgur.com/uxaU4CG.png" height="30%" width="60%" alt="Kali Linux logo"/>
+<img src="https://imgur.com/jdzT4xu.png" height="30%" width="60%" alt="Kali Linux logo"/>
 </p>
 
-<h1>Kali Linux - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of Kali Linux on a Windows OS.<br />
+<h1>OWASP ZAP - Installation</h1>
+This tutorial outlines the installation of OWASP ZAP on a Windows OS.<br />
 
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Visual C++ 
-- Oracle VirtualBox
-- Kali Linux
+- OWASP ZAP
+- Java 8 or later
 
 <h2>Operating Systems Used </h2>
 
@@ -19,53 +18,28 @@ This tutorial outlines the prerequisites and installation of Kali Linux on a Win
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://imgur.com/CKShO5N.png" height="80%" width="80%" alt="VM Steps"/>
+<img src="https://imgur.com/lWnYFky.png" height="80%" width="80%" alt="owasp-install Steps"/>
 </p>
 <p>
-To install VirtualBox on Windows, you must first install the Microsoft Visual C++ Redistributable package, and then restart your computer.
+Install OWASP ZAP
 
 1. Access 
-https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022
-.
-2. In the table, click the link for X64.
-3. Once the download is complete, open the file.
-4. The Installation wizard opens. Scroll to the end of the software license terms, and then select the checkbox to agree to the license terms and conditions. Next, click Install.
-5. Once installation completes, restart your computer.  
+https://www.zaproxy.org/download/, and then click the Download button for the installer compatible with your OS.  
+2. Open the downloaded file.  
+3. Complete the Setup Wizard by clicking "next" and selecting the "standard installation" when prompted. 
 
 </p>
 <br />
 
 <p>
-<img src="https://imgur.com/QBJTqZ3.png" height="80%" width="80%" alt="VM Box Steps"/>
+<img src="https://imgur.com/65F71dK.png" height="80%" width="80%" alt="open-owasp Box Steps"/>
 </p>
 <p>
-Install Virtual Box on your computer
+Open OWASP ZAP
 
-1. Access https://www.virtualbox.org/
-2. Click the Download button.
-3. On the Download VirtualBox page, click the link to the package for your host’s operating system.
-4. When the download completes, open the file to run the executable. The Setup Wizard opens.
-5. Complete Setup.
+1.  At startup, a pop-up window displays with the question, "Do you want to persist the ZAP session?" Click No, I do not want to persist this session at this moment in time, and then click Start.  
+2. Another pop-up window might recommend restarting ZAP to ensure full functionality. If so, click OK, close ZAP, and then reopen ZAP.
 
 </p>
 <br />
 
-<p>
-<img src="https://imgur.com/KzHK8WX.png" height="80%" width="80%" alt="Kali Download Steps"/>
-</p>
-<p>
-Install and boot up a Kali Linux VM
-
-1. Access https://www.kali.org/
-2.  Click Download.
-3.  Click Virtual Machines.
-4.  Click VirtualBox 64. If you prefer to use a torrent application for your download, click the torrent button for VirtualBox 64.
-5.  Once the download is complete, navigate to the folder or directory into which you downloaded the file.
-6.  Using your file archiver, extract the downloaded file’s contents to a folder or directory of your choice.
-7.  Open VirtualBox.
-8.  To add Kali Linux, navigate to the recently extracted Kali Linux files. Next, click the VirtualBox Machine Definition (.vbox) file for Kali Linux, and then click Open.
-9.  A Kali Linux VM is displayed in your VirtualBox Manager, and the VM’s specifications and settings are displayed in the manager. Click Start to start the VM.
-10.  The VM may take up to a minute to boot into the OS. Once the login screen is displayed, type kali in both the user ID and password fields, and then click Log In.
-11.  Kali Linux is now ready for use.
-</p>
-<br />
